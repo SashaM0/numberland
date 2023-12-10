@@ -1,0 +1,156 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Babylonica:400|Inconsolata:300,200");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  width: 1440;
+}
+
+
+
+/* To set the size of the iframe */
+#canvas {
+    width: 620px;
+    height: 620px;
+}
+
+/* To set the position of the iframe */
+.iframe-container {
+    position: relative;
+    top: 319px;
+  left: 890px;
+}
+
+#text  {
+    position: absolute;
+    width: 50%;
+    font-family: 'Cardo', serif;
+    border: 1px;
+    width: 511px;
+    height: 600px;
+    top: 502px;
+    left: 352px;
+   }
+
+   .p {
+    position: absolute;
+    width: 218px;
+    top: 859px;
+    left: 1106px;
+    font-family: "Inconsolata";
+    font-weight: 300;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15px;
+  }
+
+  .overlap-group {
+    position: absolute;
+    width: 827px;
+    height: 346px;
+    top: 37px;
+    left: 51px;
+  }
+  
+   .image {
+    position: fixed;
+    width: 383px;
+    height: 306px;
+    top: 40px;
+    left: 371px;
+    mix-blend-mode: luminosity;
+    object-fit: cover;
+    opacity: 0.24;
+  }
+  
+ .DOWN-TO-THE-RABBIT {
+    position: absolute;
+    width: 467px;
+    top: 0;
+    left: 0;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 71px;
+    letter-spacing: -4.26px;
+    line-height: 57.2px;
+  }
+
+  .text-wrapper {
+    position: absolute;
+    width: 529px;
+    top: 126px;
+    left: 298px;
+    font-family: "Babylonica", Helvetica;
+    font-weight: 400;
+    color: #7caeec;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  .group-2 {
+    width: 496px;
+    height: 428px;
+    top: 0;
+    position: absolute;
+    left: 0;
+  }
+
+  .overlap-2 {
+    position: absolute;
+    width: 227px;
+    height: 321px;
+    top: 556px;
+    left: 14px;
+  }
+  
+  .alice {
+    position: absolute;
+    width: 205px;
+    top: 0;
+    left: 0;
+    font-family: "Inconsolata", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 14px;
+  }
+  
+ .in-mathematics-the {
+    position: absolute;
+    width: 227px;
+    top: 163px;
+    left: 0;
+    font-family: "Inconsolata", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 14px;
+  }
+  
+  button{
+    position: absolute;
+    width: 133px;
+    top: 310px;
+    left: 925px;
+  }
+
+
+
+
+.overlap-2{
+  display: block;
+}
+  
+.print-only{
+  display: none;
+}
